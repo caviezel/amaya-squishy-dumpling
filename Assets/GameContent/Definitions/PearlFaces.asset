@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72443de068de84c4dadc66c726b8fdbc, type: 3}
+  m_Name: PearlFaces
+  m_EditorClassIdentifier: 
+  stepPrefab: {fileID: 6082794054428071662, guid: dd3ee9008deb54b7fbbc172a72afde10,
+    type: 3}
+  directSelection: 1
+  faces:
+  - id: face-1
+    displayName: Face 1
+    preview: {fileID: 21300000, guid: c9cde2408a6cf4fc492d4e36efba4043, type: 3}
+    stampArtwork: {fileID: 0}
+    appliedArtwork: {fileID: 21300000, guid: c9cde2408a6cf4fc492d4e36efba4043, type: 3}
+    appliedLocalPosition: {x: 0, y: -0.25, z: 0}
+    appliedLocalScale: {x: 1, y: 1, z: 1}
+    appliedLocalRotation: 0
+  - id: face-2
+    displayName: Face 2
+    preview: {fileID: 21300000, guid: 8ebad1308923f4e5a8cc74f92fd5fe3a, type: 3}
+    stampArtwork: {fileID: 0}
+    appliedArtwork: {fileID: 21300000, guid: 8ebad1308923f4e5a8cc74f92fd5fe3a, type: 3}
+    appliedLocalPosition: {x: 0, y: -0.25, z: 0}
+    appliedLocalScale: {x: 1, y: 1, z: 1}
+    appliedLocalRotation: 0
+  - id: face-3
+    displayName: Face 3
+    preview: {fileID: 21300000, guid: 299dbc4188c1b49f48084e2175990a1a, type: 3}
+    stampArtwork: {fileID: 0}
+    appliedArtwork: {fileID: 21300000, guid: 299dbc4188c1b49f48084e2175990a1a, type: 3}
+    appliedLocalPosition: {x: 0, y: -0.25, z: 0}
+    appliedLocalScale: {x: 1, y: 1, z: 1}
+    appliedLocalRotation: 0
+  - id: face-4
+    displayName: Face 4
+    preview: {fileID: 21300000, guid: 0a0518bbd76d14d3f82eeb2e1b801ae6, type: 3}
+    stampArtwork: {fileID: 0}
+    appliedArtwork: {fileID: 21300000, guid: 0a0518bbd76d14d3f82eeb2e1b801ae6, type: 3}
+    appliedLocalPosition: {x: 0, y: -0.25, z: 0}
+    appliedLocalScale: {x: 1, y: 1, z: 1}
+    appliedLocalRotation: 0
+  - id: face-5
+    displayName: Face 5
+    preview: {fileID: 21300000, guid: 44b3463831e634a01be40825efcccbeb, type: 3}
+    stampArtwork: {fileID: 0}
+    appliedArtwork: {fileID: 21300000, guid: 44b3463831e634a01be40825efcccbeb, type: 3}
+    appliedLocalPosition: {x: 0, y: -0.25, z: 0}
+    appliedLocalScale: {x: 1, y: 1, z: 1}
+    appliedLocalRotation: 0
+  - id: face-6
+    displayName: Face 6
+    preview: {fileID: 21300000, guid: d8de6504b5dfb4e68a0e1588f88e9f34, type: 3}
+    stampArtwork: {fileID: 0}
+    appliedArtwork: {fileID: 21300000, guid: d8de6504b5dfb4e68a0e1588f88e9f34, type: 3}
+    appliedLocalPosition: {x: 0, y: -0.25, z: 0}
+    appliedLocalScale: {x: 1, y: 1, z: 1}
+    appliedLocalRotation: 0
+  - id: face-7
+    displayName: Face 7
+    preview: {fileID: 21300000, guid: 5b95241fe2a16420eb29418062a0e24b, type: 3}
+    stampArtwork: {fileID: 0}
+    appliedArtwork: {fileID: 21300000, guid: 5b95241fe2a16420eb29418062a0e24b, type: 3}
+    appliedLocalPosition: {x: 0, y: -0.25, z: 0}
+    appliedLocalScale: {x: 1, y: 1, z: 1}
+    appliedLocalRotation: 0
+  - id: face-8
+    displayName: Face 8
+    preview: {fileID: 21300000, guid: fe598ebdce6704aba97ca9b2882a8f8d, type: 3}
+    stampArtwork: {fileID: 0}
+    appliedArtwork: {fileID: 21300000, guid: fe598ebdce6704aba97ca9b2882a8f8d, type: 3}
+    appliedLocalPosition: {x: 0, y: -0.25, z: 0}
+    appliedLocalScale: {x: 1, y: 1, z: 1}
+    appliedLocalRotation: 0
+  - id: face-9
+    displayName: Face 9
+    preview: {fileID: 21300000, guid: 0005a315704754c79acf0bbd016cd24b, type: 3}
+    stampArtwork: {fileID: 0}
+    appliedArtwork: {fileID: 21300000, guid: 0005a315704754c79acf0bbd016cd24b, type: 3}
+    appliedLocalPosition: {x: 0, y: -0.25, z: 0}
+    appliedLocalScale: {x: 1, y: 1, z: 1}
+    appliedLocalRotation: 0
+  - id: face-10
+    displayName: Face 10
+    preview: {fileID: 21300000, guid: b61b6d6d44bef43e1965889c1c8c0851, type: 3}
+    stampArtwork: {fileID: 0}
+    appliedArtwork: {fileID: 21300000, guid: b61b6d6d44bef43e1965889c1c8c0851, type: 3}
+    appliedLocalPosition: {x: 0, y: -0.25, z: 0}
+    appliedLocalScale: {x: 1, y: 1, z: 1}
+    appliedLocalRotation: 0
+  - id: face-11
+    displayName: Face 11
+    preview: {fileID: 21300000, guid: 0b34194c3ae8849efb7857c885b904e3, type: 3}
+    stampArtwork: {fileID: 0}
+    appliedArtwork: {fileID: 21300000, guid: 0b34194c3ae8849efb7857c885b904e3, type: 3}
+    appliedLocalPosition: {x: 0, y: -0.25, z: 0}
+    appliedLocalScale: {x: 1, y: 1, z: 1}
+    appliedLocalRotation: 0
+  - id: face-12
+    displayName: Face 12
+    preview: {fileID: 21300000, guid: 8f91bfabf06644476b8fc61ef4085864, type: 3}
+    stampArtwork: {fileID: 0}
+    appliedArtwork: {fileID: 21300000, guid: 8f91bfabf06644476b8fc61ef4085864, type: 3}
+    appliedLocalPosition: {x: 0, y: -0.25, z: 0}
+    appliedLocalScale: {x: 1, y: 1, z: 1}
+    appliedLocalRotation: 0
+  - id: face-13
+    displayName: Face 13
+    preview: {fileID: 21300000, guid: 48d58ce74ee8c49c5b7b32ba5097cd92, type: 3}
+    stampArtwork: {fileID: 0}
+    appliedArtwork: {fileID: 21300000, guid: 48d58ce74ee8c49c5b7b32ba5097cd92, type: 3}
+    appliedLocalPosition: {x: 0, y: -0.25, z: 0}
+    appliedLocalScale: {x: 1, y: 1, z: 1}
+    appliedLocalRotation: 0
+  - id: face-14
+    displayName: Face 14
+    preview: {fileID: 21300000, guid: b0b56d050665d45af9f8637b16624783, type: 3}
+    stampArtwork: {fileID: 0}
+    appliedArtwork: {fileID: 21300000, guid: b0b56d050665d45af9f8637b16624783, type: 3}
+    appliedLocalPosition: {x: 0, y: -0.25, z: 0}
+    appliedLocalScale: {x: 1, y: 1, z: 1}
+    appliedLocalRotation: 0
+  - id: face-15
+    displayName: Face 15
+    preview: {fileID: 21300000, guid: c1a1bd22cf43449668eb4fc78bd98014, type: 3}
+    stampArtwork: {fileID: 0}
+    appliedArtwork: {fileID: 21300000, guid: c1a1bd22cf43449668eb4fc78bd98014, type: 3}
+    appliedLocalPosition: {x: 0, y: -0.25, z: 0}
+    appliedLocalScale: {x: 1, y: 1, z: 1}
+    appliedLocalRotation: 0
+  - id: face-16
+    displayName: Face 16
+    preview: {fileID: 21300000, guid: bdd1a9c47cfe54849a03eda556b75fbf, type: 3}
+    stampArtwork: {fileID: 0}
+    appliedArtwork: {fileID: 21300000, guid: bdd1a9c47cfe54849a03eda556b75fbf, type: 3}
+    appliedLocalPosition: {x: 0, y: -0.25, z: 0}
+    appliedLocalScale: {x: 1, y: 1, z: 1}
+    appliedLocalRotation: 0
+  defaultSelectedId: 
+  entrance: 0.35
+  returnDuration: 0.35
+  alignment: 0.28
+  anticipation: 0.12
+  press: 0.16
+  contactHold: 0.18
+  lift: 0.25
+  rebound: 0.35
+  exit: 0.35
+  anticipationLift: 0.35
+  pressDepth: 0.35
+  liftDistance: 2.5
+  compression: 0.8
+  widthCompensation: 1.12
+  reboundStrength: 0.07
+  wobbleDegrees: 3

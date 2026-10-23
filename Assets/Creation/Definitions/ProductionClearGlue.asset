@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdb179bc5a9b3441ca261aa3f0d7ef77, type: 3}
+  m_Name: ProductionClearGlue
+  m_EditorClassIdentifier: 
+  actorPrefab: {fileID: 3377380079105027636, guid: 2023b6d4829fa4a829ac44226ba716a8,
+    type: 3}
+  ingredientId: clear-glue
+  displayName: Clear Glue
+  presentationType: 0
+  bowlLayer: 0
+  contributionAmount: 1
+  fillColor: {r: 1, g: 1, b: 1, a: 1}
+  transferColor: {r: 1, g: 1, b: 1, a: 1}
+  powderSprite: {fileID: 0}
+  containerSprite: {fileID: 21300000, guid: faf8007c0d5d04ca7ab3a5e79028d593, type: 3}
+  contentSprite: {fileID: 21300000, guid: c059d182aa9294a3eb27312461b8779e, type: 3}
+  streamSprite: {fileID: 21300000, guid: 9ca27d1e17bf747c391d6c01dcd6634c, type: 3}
+  anticipationDuration: 0.14
+  entranceDuration: 0.65
+  returnDuration: 0.38
+  positionDuration: 0.52
+  pourDuration: 1.25
+  pourAngle: -108
+  exitDuration: 0.55
+  pickup: {fileID: 0}
+  accepted: {fileID: 0}
+  pourStart: {fileID: 0}
+  pourLoop: {fileID: 0}
+  impact: {fileID: 0}
+  completed: {fileID: 0}

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90824b24e9cb45f89a4cd4a4ab7bcf4, type: 3}
+  m_Name: CreationComposition
+  m_EditorClassIdentifier: 
+  bowlWidth: 17
+  containerWidth: 4.8
+  powderContainerWidth: 6
+  dyeContainerWidth: 3.6
+  spatulaWidth: 3.8
+  bowlPosition: {x: 0, y: -6.5}
+  ingredientPosition: {x: 0, y: 10}
+  mixingOffset: {x: 0, y: 3.5}
+  mixingRadii: {x: 5.3, y: 2.5}
+  formingBowlPosition: {x: 0, y: 7}
+  funnelPosition: {x: 0, y: -3.8}
+  pouchPosition: {x: 0, y: -8.78}
+  bodyPosition: {x: 0, y: -6}
+  choicePosition: {x: 0, y: -17.5}
+  customizationScale: 1.35
+  mixedResultHold: 0.8
+  funnelDropOffset: {x: 0, y: 2}
+  funnelDropSize: {x: 12, y: 6}
+  bowlPourPosition: {x: -6.43467, y: 5.7}
+  bowlPourMouthLocal: {x: 7.4, y: 1.7}
+  bowlPourAngle: -45
+  transferDuration: 2.8

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4e8823dafe4a9dba23d59209267b74, type: 3}
+  m_Name: PearlForming
+  m_EditorClassIdentifier: 
+  stepPrefab: {fileID: 5548977328549551516, guid: 0f083751cb391411d892b52ec3412720,
+    type: 3}
+  shapeStates:
+  - {fileID: 21300000, guid: 237c0d53fb9634e8cb56085c924622dd, type: 3}
+  - {fileID: 21300000, guid: 237c0d53fb9634e8cb56085c924622dd, type: 3}
+  - {fileID: 21300000, guid: 237c0d53fb9634e8cb56085c924622dd, type: 3}
+  - {fileID: 21300000, guid: b446a69a3a43c41dcb24c01cd0486c3f, type: 3}
+  workspaceSprite: {fileID: 21300000, guid: c20762dd1a6a04290b4f4c58e3ec423f, type: 3}
+  contactSprite: {fileID: 21300000, guid: 9ca27d1e17bf747c391d6c01dcd6634c, type: 3}
+  requiredEffort: 10
+  minimumGestureTravel: 0.2
+  minimumMotion: 0.06
+  maximumDelta: 0.9
+  indentationStrength: 0.1
+  dragFollow: 0.22
+  contactDamping: 18
+  releaseDamping: 10
+  wobbleStrength: 0.018
+  initialContactExtents: {x: 5.3, y: 2.5}
+  finalContactExtents: {x: 5.3, y: 2.5}
+  edgeForgiveness: 0.6
+  workspaceEntrance: 0.5
+  materialTransition: 0.75
+  landingSettle: 0.3
+  completionAnticipation: 0.14
+  completionSettle: 0.45
+  landing: {fileID: 0}
+  press: {fileID: 0}
+  gesture: {fileID: 0}
+  release: {fileID: 0}
+  milestone: {fileID: 0}
+  complete: {fileID: 0}

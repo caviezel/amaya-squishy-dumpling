@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d91fcf1c0b495cb68429803a755d8f, type: 3}
+  m_Name: PearlRecipe
+  m_EditorClassIdentifier: 
+  ingredients:
+  - {fileID: 11400000, guid: 02a1486ffdbb546269001d52a7697ea3, type: 2}
+  - {fileID: 11400000, guid: 084c2156db73b4a819de9f27af66ed01, type: 2}
+  - {fileID: 11400000, guid: 4c02f56e521934d24984ca35665856c1, type: 2}
+  - {fileID: 11400000, guid: f6c7948b3d0ef4e7fafc44edc7291b37, type: 2}

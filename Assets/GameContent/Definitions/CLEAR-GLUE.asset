@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdb179bc5a9b3441ca261aa3f0d7ef77, type: 3}
+  m_Name: CLEAR-GLUE
+  m_EditorClassIdentifier: 
+  actorPrefab: {fileID: 6044402901732275995, guid: 4b4802bdb2a1d4096a632aaa5a62b101,
+    type: 3}
+  ingredientId: clear-glue
+  displayName: Clear Glue
+  presentationType: 0
+  bowlLayer: 0
+  contributionAmount: 1
+  fillColor: {r: 1, g: 1, b: 1, a: 1}
+  transferColor: {r: 1, g: 1, b: 1, a: 1}
+  powderSprite: {fileID: 21300000, guid: 5f30b4dfafb2f4848aa1ca58c46069f7, type: 3}
+  containerSprite: {fileID: 21300000, guid: faf8007c0d5d04ca7ab3a5e79028d593, type: 3}
+  contentSprite: {fileID: 21300000, guid: faf8007c0d5d04ca7ab3a5e79028d593, type: 3}
+  streamSprite: {fileID: 21300000, guid: 5f30b4dfafb2f4848aa1ca58c46069f7, type: 3}
+  bakedContainer: 1
+  authoredStream: 1
+  fixedCenteredPour: 1
+  fixedPourContact: {x: 0, y: -3.5}
+  streamFrames:
+  - {fileID: 21300000, guid: 5f30b4dfafb2f4848aa1ca58c46069f7, type: 3}
+  - {fileID: 21300000, guid: 9ca27d1e17bf747c391d6c01dcd6634c, type: 3}
+  streamFrameDuration: 0.12
+  anticipationDuration: 0.14
+  entranceDuration: 0.65
+  returnDuration: 0.38
+  positionDuration: 0.52
+  pourDuration: 1.25
+  pourAngle: 135
+  exitDuration: 0.55
+  pickup: {fileID: 0}
+  accepted: {fileID: 0}
+  pourStart: {fileID: 0}
+  pourLoop: {fileID: 0}
+  impact: {fileID: 0}
+  completed: {fileID: 0}

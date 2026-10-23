@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd8404efac08e42758e8d849b1a5d1f1, type: 3}
+  m_Name: GameAudioLibrary
+  m_EditorClassIdentifier: 
+  menuBgm: {fileID: 8300000, guid: 43240b3df4b60404eb7e44a15c614292, type: 3}
+  gameplayBgm: {fileID: 8300000, guid: 15166ad0aefc242f687281530accdd2c, type: 3}
+  buttonClick: {fileID: 8300000, guid: df180b2b0bd694c468c9479650142d31, type: 3}
+  pickup: {fileID: 8300000, guid: 913ca0a488d5044cc9f860a236b0766e, type: 3}
+  accepted: {fileID: 8300000, guid: 2b694a8fae35140b9a03a1da101bb8d1, type: 3}
+  pourStart: {fileID: 8300000, guid: 5cfd382c9f0ea43c4a27be9eee004e4c, type: 3}
+  ingredientImpact: {fileID: 0}
+  ingredientComplete: {fileID: 8300000, guid: 7a014a244f2cd48e6b153cd64a21aa71, type: 3}
+  dyeDrop: {fileID: 8300000, guid: 8802fc6b6d4a64c49819546969b1a1b1, type: 3}
+  mixingMilestone: {fileID: 8300000, guid: 913ca0a488d5044cc9f860a236b0766e, type: 3}
+  stepComplete: {fileID: 8300000, guid: c5c8e5714030b48748e6a56db6b96494, type: 3}
+  faceSelect: {fileID: 8300000, guid: df180b2b0bd694c468c9479650142d31, type: 3}
+  faceConfirm: {fileID: 8300000, guid: 7a014a244f2cd48e6b153cd64a21aa71, type: 3}
+  squish: {fileID: 8300000, guid: 5cfd382c9f0ea43c4a27be9eee004e4c, type: 3}
+  stretch: {fileID: 8300000, guid: 913ca0a488d5044cc9f860a236b0766e, type: 3}
+  release: {fileID: 8300000, guid: 2b694a8fae35140b9a03a1da101bb8d1, type: 3}
+  ingredientAppear: {fileID: 8300000, guid: e8e1a44580195481989fa312c1474432, type: 3}
+  finalReveal: {fileID: 8300000, guid: 4d6c3e941bc3e404581abe541c78707b, type: 3}
+  liquidPourLoop: {fileID: 8300000, guid: 3646e4c4ce06d45b0875d07479ba613c, type: 3}
+  powderPourLoop: {fileID: 8300000, guid: 3afee5da153f64cdc860f1efcf03e7dd, type: 3}
+  stirringLoop: {fileID: 8300000, guid: 929311667ef0d4d3bad6bd9aa5f3a9e4, type: 3}
+  funnelPourLoop: {fileID: 8300000, guid: 3afee5da153f64cdc860f1efcf03e7dd, type: 3}
+  musicVolume: 0.45
+  sfxVolume: 0.8
+  loopVolume: 0.5

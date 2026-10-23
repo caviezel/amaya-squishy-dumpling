@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - LevelButton
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Particle
+  - Slot
+  - Map
+  - Distortion
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 10001
+    locked: 0
+  - name: GameplayBack
+    uniqueID: 10002
+    locked: 0
+  - name: Gameplay
+    uniqueID: 10003
+    locked: 0
+  - name: GameplayFront
+    uniqueID: 10004
+    locked: 0
+  - name: WorldEffects
+    uniqueID: 10005
+    locked: 0
+  - name: UI
+    uniqueID: 10006
+    locked: 0

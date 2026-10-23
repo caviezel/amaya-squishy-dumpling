@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1544c3013c77a4b14be15c1621aeef53, type: 3}
+  m_Name: GlitterPresentation
+  m_EditorClassIdentifier: 
+  variants:
+  - id: glitter-0
+    displayName: Blue glitter
+    ingredient: {fileID: 11400000, guid: 751bb23ce0b2749e2a4d956a0da93ec6, type: 2}
+    inBowl: {fileID: 21300000, guid: cad0d7e50e1ad42b2901020273ee5791, type: 3}
+    body: {fileID: 21300000, guid: a985a37ac151146dbbd447603fec3133, type: 3}
+    mixing:
+    - {fileID: 21300000, guid: 526d4088ba09a46bda700689442e7538, type: 3}
+    - {fileID: 21300000, guid: 2e908d29d67b74009b5158f2f15612fa, type: 3}
+    - {fileID: 21300000, guid: 30244a5ff019649819c505f1a824ee0f, type: 3}
+    deformation: {fileID: 11400000, guid: 6f4714243fea34052ae66cc116ad678d, type: 2}
+  - id: glitter-1
+    displayName: Pink glitter
+    ingredient: {fileID: 11400000, guid: 83604eebea444452c93d7a60fe038b1e, type: 2}
+    inBowl: {fileID: 21300000, guid: 4ee552a25f594495da0eddb93ef494d7, type: 3}
+    body: {fileID: 21300000, guid: d30b3e4d9f4ef4bacb72fc8ad36dfac5, type: 3}
+    mixing:
+    - {fileID: 21300000, guid: 1d114c05a87504db7aac3d2fcd063b30, type: 3}
+    - {fileID: 21300000, guid: 72c0585c31f6e40a1a39a1c923e4f356, type: 3}
+    - {fileID: 21300000, guid: 1ae93050687014083a6f662fe3c3d0f0, type: 3}
+    deformation: {fileID: 11400000, guid: 6f0403eb3ce7a481c89618cf527de289, type: 2}
+  - id: glitter-2
+    displayName: Silver glitter
+    ingredient: {fileID: 11400000, guid: 62a9f0d59b9a2425c907fc2791d5bd81, type: 2}
+    inBowl: {fileID: 21300000, guid: 444fabccdf4724fbf810b7e12d90d3d6, type: 3}
+    body: {fileID: 21300000, guid: 3adb2a789692540899c11de29280b0a2, type: 3}
+    mixing:
+    - {fileID: 21300000, guid: b64ecd7da12c143d1bccf595b692038d, type: 3}
+    - {fileID: 21300000, guid: 9e39f89a38bc34628bf8941fd300b636, type: 3}
+    - {fileID: 21300000, guid: 5ff7be3fb5af04fed941b325e93b6970, type: 3}
+    deformation: {fileID: 11400000, guid: 0d1b05585d4b046aa9daea3ffa9b6505, type: 2}
+  - id: glitter-3
+    displayName: Pink hearts
+    ingredient: {fileID: 11400000, guid: 1b9a9170ea19f4b76896c81c7f4bb7d3, type: 2}
+    inBowl: {fileID: 21300000, guid: 43b8df5c10e224e488d64a6cba04ecad, type: 3}
+    body: {fileID: 21300000, guid: 212e9e45a56594002898d678af522bbf, type: 3}
+    mixing:
+    - {fileID: 21300000, guid: f71177ad229504ef58f69ec0ded2c550, type: 3}
+    - {fileID: 21300000, guid: af339debe77a041cb88ec6654f6f37e3, type: 3}
+    - {fileID: 21300000, guid: 0c5362da26bd94c8e9bc43a62d9e561b, type: 3}
+    deformation: {fileID: 11400000, guid: 89d9db0c478454b10942dfeae0eba0e6, type: 2}
+  makingBackground: {fileID: 21300000, guid: 31a3d946ca4f8420c948b6750a188665, type: 3}
+  playBackground: {fileID: 21300000, guid: 7568e0bd6f03c4d9388a5449a3bd2bfa, type: 3}
+  choiceFrame: {fileID: 21300000, guid: 0be8ae4d303ac42068b43a4fe030af33, type: 3}
+  selectedFrame: {fileID: 21300000, guid: f904d095770d24d8f827f610e27e0ba7, type: 3}
+  confirmSprite: {fileID: 21300000, guid: 8ea25f008aa50407aa9a67b00bf3745c, type: 3}

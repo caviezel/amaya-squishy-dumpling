@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ebb68fb19ee447508abb24d61b0a41c, type: 3}
+  m_Name: DumplingFamilies
+  m_EditorClassIdentifier: 
+  families:
+  - id: pearl
+    displayName: Pearl
+    presentation: {fileID: 11400000, guid: a36a0e7df14014f2cb2326e6cb58430f, type: 2}
+  - id: glitter
+    displayName: Glitter
+    presentation: {fileID: 11400000, guid: 6e4fcf0967fb140a98f55bba6f44b1d1, type: 2}
+  - id: pastel
+    displayName: Pastel
+    presentation: {fileID: 11400000, guid: 534402f065bc14f2386ec606a7b7a959, type: 2}
+  - id: sprinkles
+    displayName: Sprinkles
+    presentation: {fileID: 11400000, guid: e354dfab836ab4b8cb6143ce40aec420, type: 2}

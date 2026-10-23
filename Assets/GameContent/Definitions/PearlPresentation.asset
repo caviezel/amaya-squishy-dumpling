@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1544c3013c77a4b14be15c1621aeef53, type: 3}
+  m_Name: PearlPresentation
+  m_EditorClassIdentifier: 
+  variants:
+  - id: gold
+    displayName: Gold
+    ingredient: {fileID: 11400000, guid: f6c7948b3d0ef4e7fafc44edc7291b37, type: 2}
+    inBowl: {fileID: 21300000, guid: 63f80ac4fed294b678080ae146babf23, type: 3}
+    body: {fileID: 21300000, guid: b446a69a3a43c41dcb24c01cd0486c3f, type: 3}
+    mixing:
+    - {fileID: 21300000, guid: 53b168b64f8014dd0919b7e7e80c13f1, type: 3}
+    - {fileID: 21300000, guid: b9dcb94ea581c4a73bf0d72552064cc5, type: 3}
+    - {fileID: 21300000, guid: 237c0d53fb9634e8cb56085c924622dd, type: 3}
+    deformation: {fileID: 11400000, guid: e75c3b7bcb7e441588e531486abd8b92, type: 2}
+  - id: silver
+    displayName: Silver
+    ingredient: {fileID: 11400000, guid: 9b6d0b7e5b79d413bb2fe5dc4a1312df, type: 2}
+    inBowl: {fileID: 21300000, guid: f9bf2b83a92934ffd822c8ff921fa220, type: 3}
+    body: {fileID: 21300000, guid: f8122c99ecf654af8bcc4581a3305472, type: 3}
+    mixing:
+    - {fileID: 21300000, guid: b1e58b4f9e10c4485a49041f7d8d3ba8, type: 3}
+    - {fileID: 21300000, guid: 723974de6f52d4b57bfa19b556325d04, type: 3}
+    - {fileID: 21300000, guid: 4c0ce21ff8dfa405ea04482c150f2b26, type: 3}
+    deformation: {fileID: 11400000, guid: 6fb4054ec13b447699c6353a00236337, type: 2}
+  - id: ink
+    displayName: Ink
+    ingredient: {fileID: 11400000, guid: 282668c0e87da4f63a5b4731af2e84b8, type: 2}
+    inBowl: {fileID: 21300000, guid: 004259995fdf44130a3930d2ceb3568b, type: 3}
+    body: {fileID: 21300000, guid: be7746ab5054d47e9884de0ffa3ecc85, type: 3}
+    mixing:
+    - {fileID: 21300000, guid: 361b9ddff6d934a1eb53924cb0f1e893, type: 3}
+    - {fileID: 21300000, guid: b69110a13d3f143fc890a41a81f755ce, type: 3}
+    - {fileID: 21300000, guid: 9dc448b09fb504219a633d6cdd50a577, type: 3}
+    deformation: {fileID: 11400000, guid: 221201361753c41c0a2afa6d9d1e46e0, type: 2}
+  - id: rainbow
+    displayName: Rainbow
+    ingredient: {fileID: 11400000, guid: 558e58ecf7d6f4531839639909938e28, type: 2}
+    inBowl: {fileID: 21300000, guid: e5c88881d630d48c3aa99806b1c8197f, type: 3}
+    body: {fileID: 21300000, guid: 09f92da9dc103492093acfa8b1affde2, type: 3}
+    mixing:
+    - {fileID: 21300000, guid: f1f616bd1c1864bfba55c3d8b16060af, type: 3}
+    - {fileID: 21300000, guid: 94601505eb7d84eae85f4735f9309ee2, type: 3}
+    - {fileID: 21300000, guid: dcff00b60527a4b4da54d8d0d4886ad7, type: 3}
+    deformation: {fileID: 11400000, guid: c55a8d7427f904f8cb03e42bb0f657b3, type: 2}
+  makingBackground: {fileID: 21300000, guid: 31a3d946ca4f8420c948b6750a188665, type: 3}
+  playBackground: {fileID: 21300000, guid: 7568e0bd6f03c4d9388a5449a3bd2bfa, type: 3}
+  choiceFrame: {fileID: 21300000, guid: 0be8ae4d303ac42068b43a4fe030af33, type: 3}
+  selectedFrame: {fileID: 21300000, guid: f904d095770d24d8f827f610e27e0ba7, type: 3}
+  confirmSprite: {fileID: 21300000, guid: 8ea25f008aa50407aa9a67b00bf3745c, type: 3}
