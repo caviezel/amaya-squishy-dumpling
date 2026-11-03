@@ -13,7 +13,7 @@ namespace SquishyDumpling.Creation
         public ParticleSystem completionFx;
         public CreationComposition composition;
         FormingStep step;Sequence motion;Vector3 mixtureScale,dragStart;bool dragging,seated;
-        Vector3 pouchOffset;
+        Vector3 pouchOffset,pouchScale;
         FunnelPourRibbon bowlRibbon,pouchRibbon;
         SortingGroup bowlGroup;bool previousGroupEnabled;string previousGroupLayer;int previousGroupOrder;
         void BringBowlForward()
@@ -52,7 +52,16 @@ namespace SquishyDumpling.Creation
             }
             bowlRibbon.Hide(true);pouchRibbon.Hide(true);
             mixtureScale=step.mixedSurface.mixedLayer.transform.localScale;
-            pouchOffset=composition.pouchPosition-composition.funnelPosition;seated=true;
+            // Match the finished dumpling's width while keeping the pouch neck under the funnel.
+            float previousScale=pouch.transform.localScale.x;
+            var finishedState=step.material.states[step.material.states.Length-1];
+            float finishedWidth=finishedState.transform.TransformVector(Vector3.right*finishedState.sprite.bounds.size.x).magnitude;
+            float pouchWidth=pouch.sprite.bounds.size.x;
+            pouchScale=Vector3.one*(finishedWidth/pouchWidth);
+            pouch.transform.localScale=pouchScale;
+            pouchOffset=composition.pouchPosition-composition.funnelPosition;
+            pouchOffset.y-=pouch.sprite.bounds.max.y*(pouchScale.y-previousScale);
+            seated=true;
             funnel.transform.position=new Vector3(-14,0,0);pouch.transform.position=funnel.transform.position+pouchOffset;
             funnel.enabled=pouch.enabled=false;
             yield return new WaitForSeconds(composition.mixedResultHold);
@@ -111,7 +120,7 @@ namespace SquishyDumpling.Creation
             step.bowl.SetShellVisible(false);
             motion=Vector3.SqrMagnitude(pouch.transform.position-(Vector3)composition.bodyPosition)>.000001f
                 ?Sequence.Create().Chain(Tween.Position(pouch.transform,(Vector3)composition.bodyPosition,.45f,Ease.InOutCubic)):Sequence.Create().ChainDelay(.2f);
-            motion=motion.Chain(Tween.Scale(pouch.transform,Vector3.one*1.06f,.13f,Ease.OutSine))
+            motion=motion.Chain(Tween.Scale(pouch.transform,pouchScale*1.06f,.13f,Ease.OutSine))
                 .Chain(Tween.Custom(this,0,1,.4f,(p,v)=>p.Reveal(v),Ease.InOutSine))
                 .Group(Tween.Scale(step.material.contactRoot,new Vector3(1.06f,.94f,1),.18f,Ease.OutSine))
                 .Chain(Tween.Scale(step.material.contactRoot,Vector3.one,.4f,Ease.OutBack));
@@ -128,7 +137,7 @@ namespace SquishyDumpling.Creation
             FunnelLevel=Mathf.Min(Mathf.SmoothStep(0,1,value/.25f),Mathf.SmoothStep(0,1,(1-value)/.3f));
             step.Progress.SetAutomaticTransferProgress(value);
             step.mixedSurface.mixedLayer.transform.localScale=mixtureScale*Mathf.Lerp(1,.015f,poured);
-            fill.enabled=DisplayedFill>.001f;fill.transform.localScale=Vector3.one*Mathf.Lerp(.02f,.46f,Mathf.Sqrt(DisplayedFill));fill.transform.localPosition=new Vector3(0,-.35f-(1-DisplayedFill)*1.2f,0);
+            fill.enabled=DisplayedFill>.001f;fill.transform.localScale=Vector3.one*Mathf.Lerp(.02f,.40f,Mathf.Sqrt(DisplayedFill));fill.transform.localPosition=new Vector3(0,-.9f-(1-DisplayedFill)*1.2f,0);
             funnelFill.transform.position=funnelMask.transform.position-Vector3.up*(1-FunnelLevel)*.5f;funnelFill.transform.localScale=Vector3.one*Mathf.Lerp(.15f,.4f,Mathf.Sqrt(FunnelLevel));funnelFill.enabled=FunnelLevel>.001f;funnelFill.color=new Color(1,1,1,FunnelLevel);
             // The old tiny flow artwork is no longer used for the forming transfer.
             upperStream.enabled=lowerStream.enabled=false;
@@ -136,7 +145,7 @@ namespace SquishyDumpling.Creation
             float lowerEnvelope=Mathf.SmoothStep(0,1,Mathf.InverseLerp(.18f,.28f,value))*(1-Mathf.SmoothStep(0,1,Mathf.InverseLerp(.87f,1,value)));
             Vector3 mouth=step.bowl.transform.TransformPoint((Vector3)composition.bowlPourMouthLocal);
             bowlRibbon.Display(mouth,funnel.transform.position+Vector3.up*1.1f,.82f,upperEnvelope,Time.time);
-            pouchRibbon.Display(funnel.transform.position+Vector3.down*2,pouch.transform.position+Vector3.up*2.6f,.4f,lowerEnvelope,Time.time);
+            pouchRibbon.Display(funnel.transform.position+Vector3.down*2,pouch.transform.TransformPoint(Vector3.up*2.6f),.4f,lowerEnvelope,Time.time);
         }
         FunnelPourRibbon CreateRibbon(string name,SpriteRenderer reference)
         {
